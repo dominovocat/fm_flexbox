@@ -8,72 +8,42 @@ body {
   font-size: 15px;
 }
 .wrapper {
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 .list {
   list-style: none;
+  font-weight: bold;
 }
 .list-item {
   display: inline-block;
 }
 .link {
   color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 15px;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1em;
-  background-color: violet;
+  background-color: #000;
   color: aliceblue;
 }
 .logo {
-  font-size: 1.8em;
-  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: serif;
 }
-.main {
-  flex: 1;
-  max-width: 1200px;
-  text-align: center;
-  margin: auto;
-}
-.main-article {
-  margin: 10px;
-  padding: 1.5em;
-  border: 1px dashed teal;
-}
-.footer {
-  padding: 1em;
-  background-color: tomato;
-  color: aliceblue;
-  text-align: center;
-}
-
-/* page.html */
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-
-  max-width: 400px;
-  border: 2px solid red;
-  margin: 10px;
+.buttom {
+  width: 100px;
   padding: 10px;
-}
-.container > * {
-  flex-grow: 0.5;
-}
-.event-name {
-  margin: 10px 0;
-  margin-left: auto;
-}
-.event-date {
-  text-align: right;
-}
-.inner{
-  display: inline-block;
-  text-align: center;
+  background-color: #000;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
